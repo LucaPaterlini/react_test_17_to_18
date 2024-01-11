@@ -1,0 +1,6 @@
+import {FaStar} from "react-icons/fa"
+
+export default function Star({selected = false}:{selected?:boolean}){
+    return <FaStar color={selected?"red":"grey"} id="star"/>
+
+}
